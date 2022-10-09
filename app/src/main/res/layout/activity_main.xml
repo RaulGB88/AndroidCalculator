@@ -13,25 +13,32 @@
         android:layout_width="404dp"
         android:layout_height="171dp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="40dp">
 
         <TextView
             android:id="@+id/screen"
             android:layout_width="284dp"
             android:layout_height="80dp"
+            android:layout_marginBottom="91dp"
             android:background="@color/greyScreen"
-            android:fontFamily="serif-monospace"
+            android:textSize="20sp"
             android:gravity="center"
             android:lineSpacingExtra="20sp"
             android:text="1234"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-            android:textColor="@color/white" />
+            android:textColor="@color/white"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tableButton"
+            app:layout_constraintVertical_bias="1.0"
+            tools:ignore="NotSibling" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <TableLayout
+        android:id="@+id/tableButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="176dp"
@@ -49,6 +56,7 @@
                 android:layout_margin="6dp"
                 android:background="@color/greyMid"
                 android:fontFamily="serif-monospace"
+                android:textSize="20sp"
                 android:text="@string/ac"
                 app:backgroundTint="@null"
                 tools:layout_editor_absoluteX="13dp"
@@ -60,7 +68,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="6dp"
                 android:background="@color/greyMid"
-                android:fontFamily="serif-monospace"
+                                android:fontFamily="serif-monospace"
+                android:textSize="20sp"
                 android:text="@string/percentage"
                 app:backgroundTint="@null" />
 
@@ -71,7 +80,8 @@
                 android:layout_margin="6dp"
                 android:layout_span="2"
                 android:background="@color/greyMid"
-                android:fontFamily="serif-monospace"
+                                android:fontFamily="serif-monospace"
+                android:textSize="20sp"
                 android:text="@string/split"
                 app:backgroundTint="@null" />
 
@@ -87,7 +97,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="6dp"
                 android:background="@color/greyMid"
-                android:fontFamily="serif-monospace"
+                                android:fontFamily="serif-monospace"
+                android:textSize="20sp"
                 android:text="@string/seven"
                 app:backgroundTint="@null" />
 
@@ -97,7 +108,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="6dp"
                 android:background="@color/greyMid"
-                android:fontFamily="serif-monospace"
+                                android:fontFamily="serif-monospace"
+                android:textSize="20sp"
                 android:text="@string/eight"
                 app:backgroundTint="@null"
                 app:cornerRadius="20dp" />
@@ -108,7 +120,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="6dp"
                 android:background="@color/greyMid"
-                android:fontFamily="serif-monospace"
+                                android:fontFamily="serif-monospace"
+                android:textSize="20sp"
                 android:text="@string/nine"
                 app:backgroundTint="@null" />
 
@@ -118,7 +131,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="6dp"
                 android:background="@color/greyMid"
-                android:fontFamily="serif-monospace"
+                                android:fontFamily="serif-monospace"
+                android:textSize="20sp"
                 android:text="@string/multiply"
                 app:backgroundTint="@null" />
         </TableRow>
@@ -133,7 +147,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="6dp"
                 android:background="@color/greyMid"
-                android:fontFamily="serif-monospace"
+                                android:fontFamily="serif-monospace"
+                android:textSize="20sp"
                 android:text="@string/four"
                 app:backgroundTint="@null" />
 
@@ -143,7 +158,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="6dp"
                 android:background="@color/greyMid"
-                android:fontFamily="serif-monospace"
+                                android:fontFamily="serif-monospace"
+                android:textSize="20sp"
                 android:text="@string/five"
                 app:backgroundTint="@null" />
 
@@ -153,7 +169,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="6dp"
                 android:background="@color/greyMid"
-                android:fontFamily="serif-monospace"
+                                android:fontFamily="serif-monospace"
+                android:textSize="20sp"
                 android:text="@string/six"
                 app:backgroundTint="@null" />
 
@@ -163,7 +180,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="6dp"
                 android:background="@color/greyMid"
-                android:fontFamily="serif-monospace"
+                                android:fontFamily="serif-monospace"
+                android:textSize="20sp"
                 android:text="@string/subtract"
                 app:backgroundTint="@null" />
         </TableRow>
@@ -178,7 +196,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="6dp"
                 android:background="@color/greyMid"
-                android:fontFamily="serif-monospace"
+                                android:fontFamily="serif-monospace"
+                android:textSize="20sp"
                 android:text="@string/one"
                 app:backgroundTint="@null" />
 
@@ -188,7 +207,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="6dp"
                 android:background="@color/greyMid"
-                android:fontFamily="serif-monospace"
+                                android:fontFamily="serif-monospace"
+                android:textSize="20sp"
                 android:text="@string/two"
                 app:backgroundTint="@null" />
 
@@ -198,7 +218,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="6dp"
                 android:background="@color/greyMid"
-                android:fontFamily="serif-monospace"
+                                android:fontFamily="serif-monospace"
+                android:textSize="20sp"
                 android:text="@string/three"
                 app:backgroundTint="@null" />
 
@@ -208,7 +229,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="6dp"
                 android:background="@color/greyMid"
-                android:fontFamily="serif-monospace"
+                                android:fontFamily="serif-monospace"
+                android:textSize="20sp"
                 android:text="@string/add"
                 app:backgroundTint="@null" />
 
@@ -224,7 +246,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="6dp"
                 android:background="@color/greyMid"
-                android:fontFamily="serif-monospace"
+                                android:fontFamily="serif-monospace"
+                android:textSize="20sp"
                 android:text="@string/zero"
                 app:backgroundTint="@null" />
 
@@ -234,7 +257,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="6dp"
                 android:background="@color/greyMid"
-                android:fontFamily="serif-monospace"
+                                android:fontFamily="serif-monospace"
+                android:textSize="20sp"
                 android:text="@string/decimal"
                 app:backgroundTint="@null" />
 
@@ -245,7 +269,8 @@
                 android:layout_margin="6dp"
                 android:layout_span="2"
                 android:background="@color/greyMid"
-                android:fontFamily="serif-monospace"
+                                android:fontFamily="serif-monospace"
+                android:textSize="20sp"
                 android:text="@string/equal"
                 app:backgroundTint="@null" />
 
