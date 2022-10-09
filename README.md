@@ -1,3 +1,4 @@
+<pre>
 Repositorio.......: 2DAM
 Creación..........: 09/10/2022
 Autor.............: Raúl Granel Blasco - raul.granel@gmail.com
@@ -8,3 +9,4 @@ Módulo............: Programación Multimedia y Dispositivos Móviles (PMDM)
 Tema..............: 3 - Recursos de una aplicación
 Lenguaje..........: Java 8
 IDE...............: Android Studio 2021.3.1
+<pre/>
